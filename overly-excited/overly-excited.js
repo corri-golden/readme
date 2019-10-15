@@ -9,12 +9,18 @@ function addExcitement (theWordArray) {
         let buildMeUp = ""
     
         for (let i = 0; i < theWordArray.length; i++) {
-            console.log(buildMeUp += sentence[i] + " ")
+            console.log(buildMeUp += theWordArray[i] + " ")
             // Concatenate the new word onto buildMeUp
-    
             // Print buildMeUp to the console
+         if (i % 3 == 2){
+            console.log(buildMeUp += theWordArray[i] + "?");
+        } 
         }
-    
     }
- addExcitement(sentence);
+ //addExcitement(sentence), "?";
     // buildMeUp += theWordArray[i] + " "
+// I want to use a question mark
+ addExcitement(sentence), "?";
+
+ //else {
+    //console.log(buildMeUp += theWordArray[i] + "?");
