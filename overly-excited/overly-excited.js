@@ -12,8 +12,9 @@ function addExcitement (theWordArray) {
             console.log(buildMeUp += theWordArray[i] + " ")
             // Concatenate the new word onto buildMeUp
             // Print buildMeUp to the console
+            debugger
          if (i % 3 == 2){
-            console.log(buildMeUp += theWordArray[i] + "?");
+            console.log(buildMeUp += "?");
         } 
         }
     }
