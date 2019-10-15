@@ -25,3 +25,4 @@ function addExcitement (theWordArray) {
 
  //else {
     //console.log(buildMeUp += theWordArray[i] + "?");
+    //redo
